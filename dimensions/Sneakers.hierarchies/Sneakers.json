@@ -26,6 +26,10 @@
 		{
 			"Name":"Asics",
 			"Type":"Numeric"
+		},
+		{
+			"Name":"Nike",
+			"Type":"Numeric"
 		}
 	],
 	"Edges":
@@ -53,6 +57,11 @@
 		{
 			"ParentName":"Total Sneakers",
 			"ComponentName":"Asics",
+			"Weight":1
+		},
+		{
+			"ParentName":"Total Sneakers",
+			"ComponentName":"Nike",
 			"Weight":1
 		}
 	],
